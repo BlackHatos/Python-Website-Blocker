@@ -1,1 +1,1 @@
-# Python-Web-Blocker
+# Python-Website-Blocker
