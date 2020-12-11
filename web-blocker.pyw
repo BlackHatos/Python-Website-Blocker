@@ -11,7 +11,7 @@ while True:
      datetime(datetime.now().year, datetime.now().month, \
      datetime.now().day,23): 
       print("working hour")
-      with open (host_path,"r+",) as file_ptr:
+      with open (host_path,"r+") as file_ptr:
         content = file_ptr.read()
         for website in websites:
             if website in content:
